@@ -59,7 +59,7 @@ var app = {
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-	// var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_blank', 'location=no,zoom=no');
+/* 	// var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_blank', 'location=no,zoom=no');
 	var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_blank', 'location=yes,zoom=no');
 	
 	ref.addEventListener('loadstart', inAppBrowserbLoadStart);
@@ -85,5 +85,5 @@ function onDeviceReady() {
         }
 	
 
-	
+	 */
 }
