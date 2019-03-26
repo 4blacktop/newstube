@@ -41,7 +41,7 @@
 	<!-- <plugin spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" source="git" /> -->
 	<!-- <plugin spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" source="git" /> -->
 	<plugin spec="https://github.com/infil00p/cordova-plugin-crosswalk-webview" source="git" />
-	<preference name="android-targetSdkVersion" value="27" />
+	
 	
 	<!-- <plugin spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" source="git" /> -->
 	<!-- <plugin name="cordova-plugin-inappbrowser" 			           spec="~3.0.0" /> -->
@@ -51,6 +51,7 @@
 
     <!-- Define app icon and splashscreen for each platform. -->
     <platform name="android">
+	<preference name="android-targetSdkVersion" value="27" />
         <icon   src="www/res/icon/android/drawable-ldpi-icon.png"               density="ldpi" />
         <icon   src="www/res/icon/android/drawable-mdpi-icon.png"               density="mdpi" />
         <icon   src="www/res/icon/android/drawable-hdpi-icon.png"               density="hdpi" />
