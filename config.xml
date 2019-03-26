@@ -41,6 +41,7 @@
 	<!-- <plugin spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" source="git" /> -->
 	<!-- <plugin spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" source="git" /> -->
 	<plugin spec="https://github.com/infil00p/cordova-plugin-crosswalk-webview" source="git" />
+	<preference name="android-targetSdkVersion" value="27" />
 	
 	<!-- <plugin spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" source="git" /> -->
 	<!-- <plugin name="cordova-plugin-inappbrowser" 			           spec="~3.0.0" /> -->
