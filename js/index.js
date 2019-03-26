@@ -52,7 +52,10 @@ var app = {
 	
 };
  */
-
+ 
+ 
+ 
+/* 
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
@@ -65,7 +68,7 @@ function onDeviceReady() {
 		navigator.app.exitApp();
 	});
 	
-	
-/* s */
+
 	
 }
+ */
