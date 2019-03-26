@@ -59,14 +59,14 @@ var app = {
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-	// var ref = cordova.InAppBrowser.open('https://directdv.ru', '_blank', 'location=no,zoom=no');
+	var ref = cordova.InAppBrowser.open('https://directdv.ru', '_blank', 'location=no,zoom=no');
 	
-	// ref.addEventListener('loadstart', inAppBrowserbLoadStart);
-	// ref.addEventListener('loadstop', inAppBrowserbLoadStop);
-	// ref.addEventListener('loaderror', inAppBrowserbLoadError);
-	// ref.addEventListener('exit', function() {
-		// navigator.app.exitApp();
-	// });
+	ref.addEventListener('loadstart', inAppBrowserbLoadStart);
+	ref.addEventListener('loadstop', inAppBrowserbLoadStop);
+	ref.addEventListener('loaderror', inAppBrowserbLoadError);
+	ref.addEventListener('exit', function() {
+		navigator.app.exitApp();
+	});
 	
 	
 	navigator.camera.getPicture(onSuccess, onFail, {
