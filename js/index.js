@@ -56,8 +56,6 @@ var app = {
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-	initPushwoosh();
-	
 	var ref = cordova.InAppBrowser.open('https://directdv.ru', '_blank', 'location=no,zoom=no');
 	
 	ref.addEventListener('loadstart', inAppBrowserbLoadStart);
