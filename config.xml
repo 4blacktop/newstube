@@ -46,7 +46,8 @@
     <!-- <plugin name="cordova-plugin-globalization"       source="npm" spec="~1.0.7" /> -->
     <!-- <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.5" /> -->
 	
-	<plugin name="https://github.com/4blacktop/inapp" source="git" />
+	<plugin name="https://github.com/apache/cordova-plugin-inappbrowser" source="git" />
+	<!-- <plugin name="https://github.com/4blacktop/inapp" source="git" /> -->
 	<!-- <plugin name="cordova-plugin-inappbrowser" 		            spec="~3.0.0" /> -->
     <!-- <plugin name="cordova-plugin-inappbrowser"        source="npm" spec="~1.7.1" /> -->
 	<!-- install plugin from a git repository (name is optional) -->
