@@ -60,7 +60,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
 	// var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_blank', 'location=no,zoom=no');
-	var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_self', 'location=yes,zoom=no');
+	// var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_self', 'location=yes,zoom=no');
 	
 	// window.open('https://google.com', '_self ', 'location=yes');
 	// window.open('https://directdv.ru/upload-content', '_self ', 'location=yes');
