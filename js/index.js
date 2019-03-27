@@ -65,7 +65,7 @@ function onDeviceReady() {
 	// window.open('https://google.com', '_self ', 'location=yes');
 	// window.open('https://directdv.ru/upload-content', '_self ', 'location=yes');
 	
-	var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+	var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_blank', 'location=yes');
 	
 /* 	ref.addEventListener('loadstart', inAppBrowserbLoadStart);
 	ref.addEventListener('loadstop', inAppBrowserbLoadStop);
