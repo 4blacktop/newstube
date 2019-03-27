@@ -60,9 +60,11 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
 	// var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_blank', 'location=no,zoom=no');
-	var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_self', 'location=yes,zoom=no');
+	// var ref = cordova.InAppBrowser.open('https://directdv.ru/upload-content', '_self', 'location=yes,zoom=no');
 	
-	ref.addEventListener('loadstart', inAppBrowserbLoadStart);
+	window.open('https://google.com', '_self ', 'location=yes');
+	
+/* 	ref.addEventListener('loadstart', inAppBrowserbLoadStart);
 	ref.addEventListener('loadstop', inAppBrowserbLoadStop);
 	ref.addEventListener('loaderror', inAppBrowserbLoadError);
 	ref.addEventListener('exit', function() {
@@ -84,6 +86,6 @@ function onDeviceReady() {
             alert('Failed because: ' + message);
         }
 	
-
+ */
 	
 }
