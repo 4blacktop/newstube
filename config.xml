@@ -46,6 +46,9 @@
     <!-- <plugin name="cordova-plugin-globalization"       source="npm" spec="~1.0.7" /> -->
     <!-- <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.5" /> -->
 	
+	<plugin spec="https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git" version="1.1.0" source="git" />
+
+	
 	<!-- <plugin name="https://github.com/apache/cordova-plugin-inappbrowser" source="git" /> -->
 	<!-- <plugin name="https://github.com/4blacktop/inapp" source="git" /> -->
 	<!-- <plugin name="cordova-plugin-inappbrowser" 		            spec="~3.0.0" /> -->
@@ -54,7 +57,7 @@
 	<!-- <plugin spec="https://github.com/jverlee/cordova-plugin-inappbrowser-camera" source="git" /> -->
 	<!-- <plugin spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" source="git" /> -->
 	<!-- <plugin spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" source="git" /> -->
-	<plugin spec="https://github.com/infil00p/cordova-plugin-crosswalk-webview" source="git" />
+	<!-- НЕ РАБОТАЕТ <plugin spec="https://github.com/infil00p/cordova-plugin-crosswalk-webview" source="git" /> -->
 	<!-- <plugin spec="https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git" version="1.1.0" source="git" /> -->
 	<!-- <plugin spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" source="git" /> -->
 	<!-- <preference name="android-targetSdkVersion" value="27" /> -->
